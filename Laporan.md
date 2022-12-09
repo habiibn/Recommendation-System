@@ -7,7 +7,7 @@ Ketika kita ingin mencari film bagus untuk ditonton sering kali kita mendapati b
 Dari sisi pelaku bisnis khususnya jasa streaming film, mempunyai sistem rekomendasi yang baik dapat meningkatkan waktu kunjung pengguna sehingga dapat meningkatkan profit. Oleh karena itu dalam proyek ini disajikan metode untuk merekomendasikan film berdasarkan rating dari film dan hasil rekomendasi dari berbagai pengguna.
 
 ### Referensi
-- G. Gupta and R. Katarya, "[Recommendation Analysis on Item-based and User-Based Collaborative Filtering](https://doi.org/10.1109/ICSSIT46314.2019.8987745)" 2019 International Conference on Smart Systems and Inventive Technology (ICSSIT), 2019, pp. 1-4.
+- G. Gupta and R. Katarya, [Recommendation Analysis on Item-based and User-Based Collaborative Filtering](https://doi.org/10.1109/ICSSIT46314.2019.8987745). 2019 International Conference on Smart Systems and Inventive Technology (ICSSIT), 2019, pp. 1-4.
 - towardsdatascience.com, [Building and Testing Recommender System with Surprise - Susan Li](https://towardsdatascience.com/building-and-testing-recommender-systems-with-surprise-step-by-step-d4ba702ef80b)
 - medium.com, [Recommendation System User Based Collaborative Filtering - GrabNGoInfo](https://medium.com/grabngoinfo/recommendation-system-user-based-collaborative-filtering-a2e76e3e15c4)
 
@@ -15,23 +15,20 @@ Dari sisi pelaku bisnis khususnya jasa streaming film, mempunyai sistem rekomend
 Proyek ini diharapkan dapat menyelesaikan beberapa permasalahan menggunakan solusi yang ditawarkan.
 ### Problem Statements
 Adapun beberapa masalah yang ingin diselesaikan diantaranya:
-- Lamanya proses pemilihan film oleh pengguna
+- Lamanya proses pemilihan film
 - Rekomendasi yang didapatkan dari teman atau orang terdekat sering kali tidak tepat dengan preferensi kita
+- Pengguna pertama tidak mendapatkan rekomendasi yang baik
 
 ### Goals
-Dalam 
-Menjelaskan tujuan proyek yang menjawab pernyataan masalah:
+Dalam penyusunan proyek ini, sistem rekomendasi yang disusun diharapkan dapat menyelesaikan permasalahan dengan kriteria tujuan sebagai berikut:
 - Jawaban pernyataan masalah 1
 - Jawaban pernyataan masalah 2
 - Jawaban pernyataan masalah n
 
 Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pernyataan masalah dan juga goals yang diinginkan.
-
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Menambahkan bagian “Solution Approach” yang menguraikan cara untuk meraih goals. Bagian ini dibuat dengan ketentuan sebagai berikut: 
-
-    ### Solution statements
-    - Mengajukan 2 atau lebih solution approach (algoritma atau pendekatan sistem rekomendasi).
+### Solution statements
+- Menyusun sistem rekomendasi berbasis rating yang menampilkan rekomendasi top N
+- Menyusun sistem rekomendasi berbasis 
 
 ## Data Understanding
 Paragraf awal bagian ini menjelaskan informasi mengenai jumlah data, kondisi data, dan informasi mengenai data yang digunakan. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
