@@ -1,30 +1,25 @@
-# Laporan Proyek Machine Learning - Nama Anda
+# Laporan Proyek Akhir Machine Learning Terapan - Habib Nurkholis M004X0007
 
 ## Project Overview
 
-Pada bagian ini, Kamu perlu menuliskan latar belakang yang relevan dengan proyek yang diangkat.
+Ketika kita ingin mencari film bagus untuk ditonton sering kali kita mendapati bahwa terdapat banyak sekali pilihan. Hal tersebut membuat proses memilih film yang tepat membutuhkan banyak pertimbangan dan menghabiskan banyak waktu. Salah satu cara tercepat menentukan pilihan ialah dengan melihat rekomendasi.
 
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Jelaskan mengapa proyek ini penting untuk diselesaikan.
-- Menyertakan hasil riset terkait atau referensi. Referensi yang diberikan harus berasal dari sumber yang kredibel dan author yang jelas.
-  
-  Format Referensi: [Judul Referensi](https://scholar.google.com/) 
+Dari sisi pelaku bisnis khususnya jasa streaming film, mempunyai sistem rekomendasi yang baik dapat meningkatkan waktu kunjung pengguna sehingga dapat meningkatkan profit. Oleh karena itu dalam proyek ini disajikan metode untuk merekomendasikan film berdasarkan rating dari film dan hasil rekomendasi dari berbagai pengguna.
+
+### Referensi
+- G. Gupta and R. Katarya, "[Recommendation Analysis on Item-based and User-Based Collaborative Filtering](https://doi.org/10.1109/ICSSIT46314.2019.8987745)" 2019 International Conference on Smart Systems and Inventive Technology (ICSSIT), 2019, pp. 1-4.
+- towardsdatascience.com, [Building and Testing Recommender System with Surprise - Susan Li](https://towardsdatascience.com/building-and-testing-recommender-systems-with-surprise-step-by-step-d4ba702ef80b)
+- medium.com, [Recommendation System User Based Collaborative Filtering - GrabNGoInfo](https://medium.com/grabngoinfo/recommendation-system-user-based-collaborative-filtering-a2e76e3e15c4)
 
 ## Business Understanding
-
-Pada bagian ini, Anda perlu menjelaskan proses klarifikasi masalah.
-
-Bagian laporan ini mencakup:
-
+Proyek ini diharapkan dapat menyelesaikan beberapa permasalahan menggunakan solusi yang ditawarkan.
 ### Problem Statements
-
-Menjelaskan pernyataan masalah:
-- Pernyataan Masalah 1
-- Pernyataan Masalah 2
-- Pernyataan Masalah n
+Adapun beberapa masalah yang ingin diselesaikan diantaranya:
+- Lamanya proses pemilihan film oleh pengguna
+- Rekomendasi yang didapatkan dari teman atau orang terdekat sering kali tidak tepat dengan preferensi kita
 
 ### Goals
-
+Dalam 
 Menjelaskan tujuan proyek yang menjawab pernyataan masalah:
 - Jawaban pernyataan masalah 1
 - Jawaban pernyataan masalah 2
@@ -78,3 +73,5 @@ Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, probl
 _Catatan:_
 - _Anda dapat menambahkan gambar, kode, atau tabel ke dalam laporan jika diperlukan. Temukan caranya pada contoh dokumen markdown di situs editor [Dillinger](https://dillinger.io/), [Github Guides: Mastering markdown](https://guides.github.com/features/mastering-markdown/), atau sumber lain di internet. Semangat!_
 - Jika terdapat penjelasan yang harus menyertakan code snippet, tuliskan dengan sewajarnya. Tidak perlu menuliskan keseluruhan kode project, cukup bagian yang ingin dijelaskan saja.
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
